@@ -13,7 +13,6 @@ urlpatterns = [
     path('health/', health, name='health'),
 
     path('api/users/', include('users.urls')),
-    path('api/activities/', include('activities.urls')),
 
     # auth
     path('api/token/', TokenObtainPairView.as_view(),
