@@ -43,8 +43,7 @@ INSTALLED_APPS = [
 ]
 
 MODEL_APP = [
-    'users',
-    'activities'
+    'users'
 ]
 THIRD_PARTY_APP = [
     'rest_framework',
